@@ -1,0 +1,63 @@
+input.amit_button { 
+    position: relative; 
+    z-index: 1;
+    overflow: visible; 
+    display: inline-block; 
+    padding: 0.4em 0.7em 0.375em; 
+    border: 1px solid #999; 
+    border-bottom-color: #888;
+    margin: 40;
+	float:none;
+    text-decoration: none; 
+    text-align: center;
+    font: bold 13px/normal 'lucida grande', tahoma, verdana, arial, sans-serif; 
+    white-space: nowrap; 
+    cursor: pointer; 
+    outline: none;
+    color: #333; 
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f6f6), to(#e4e4e3));
+    background-image: -moz-linear-gradient(#f5f6f6, #e4e4e3);
+    background-image: -o-linear-gradient(#f5f6f6, #e4e4e3);
+    background-image: linear-gradient(#f5f6f6, #e4e4e3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3'); /* for IE 6 - 9 */
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+	 border-color: #3b6e22 #3b6e22 #2c5115;
+    color: #fff;
+    background-color: #69A74E;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#75ae5c), to(#67a54b));
+    background-image: -moz-linear-gradient(#75ae5c, #67a54b);
+    background-image: -o-linear-gradient(#75ae5c, #67a54b);
+    background-image: linear-gradient(#75ae5c, #67a54b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#75ae5c', EndColorStr='#67a54b'); /* for IE 6 - 9 */
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    /* IE hacks */
+    zoom: 1; 
+    display: inline; 
+}
+
+input.amit_button:hover,
+input.amit_button:focus,
+input.amit_button:active {
+    border-color: #777 #777 #666;
+}
+
+input.amit_button:active {
+    border-color: #aaa;
+    background: #ddd;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	 border-color: #3B6E22;
+    background: #609946;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
